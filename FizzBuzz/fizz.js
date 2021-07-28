@@ -10,12 +10,12 @@ for (var i = 1; i <= 100; i++) /*++ iterador de avance*/
 
     if (esDivisible(i, 5))
     {
-	    document.write("Buzz");
+		document.write("Buzz");
     }
 
-    if (!esDivisible(i, 3) && (!esDivisible(i, 5))/* modulo(%) y(&&) diferente(!=) */
+    if (!esDivisible(i, 3) && !esDivisible(i, 5))/* modulo(%) y(&&) diferente(!=) */
     {
-        document.write(i);
+        document.write(i,"no son divisibles");
     }
 
     document.write("<br/>");    
